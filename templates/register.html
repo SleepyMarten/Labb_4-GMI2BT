@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab 4</title>
+    <meta name="description" content="A webpage used for lab 4." />
+    <link rel="stylesheet" href="../static/layout.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Labb 4</h1>
+    </header>
+    <main>
+      <form>
+        <div>
+          <fieldset>
+            <legend><strong>Information</strong></legend>
+            <ul>
+              <li>
+                <p>
+                  <label for="payment">Payment method: {{ register['payment'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="firstname">Firstname: {{ register['firstname'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="lastname">Lastname: {{ register['lastname'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="address">Address: {{ register['address'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="zipCode">ZipCode: {{ register['zipCode'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p><label for="city">City: {{ register['city'] }}</label></p>
+              </li>
+              <li>
+                <p>
+                  <label for="phoneNumber">phoneNumber: {{ register['phoneNumber'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p><label for="mail">Mail: {{ register['mail'] }}</label></p>
+              </li>
+              <li>
+                <p>
+                  <label for="password">Password: {{ register['password'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="recieveMail">Newsletter: {{ register['recieveMail'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="htmlBox">Mail formate in HTML: {{ register['htmlBox'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="textBox">Mail formate in TEXT: {{ register['textBox'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <label for="comment">Comment: {{ register['comment'] }}</label>
+                </p>
+              </li>
+              <li>
+                <p><a href="http://127.0.0.1:5000/">Back to index </a></p>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
